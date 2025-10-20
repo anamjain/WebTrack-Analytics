@@ -1,8 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  margin: 0;
+  padding: 0;
   text-align: center;
-  background: #f8f9fa;
-  padding: 20px;
+  color: #333;
 }
 
 h1 {
@@ -17,4 +19,8 @@ h1 {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+html {
+  scroll-behavior: smooth;
 }
